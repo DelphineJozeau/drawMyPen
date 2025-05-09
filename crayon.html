@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="crayon.js"></script>
+    <script type="module" defer src="crayon.js"></script>
     <title>Crayon ASCII Art</title>
 </head>
-<body>
-    
+<body>    
+<h1>Dessine-moi un crayon</h1>
 
+<p>Comme chaque année, tu reprends l'école en septembre pour finir en juin.
+    Tu as acheté un crayon tout neuf pour l'occasion mais au fur et à mesure de l'année,
+    il rétrécit car tu l'utilises beaucoup. 
+</p>
+
+<p>Séléctionne un mois de l'année scolaire pour voir comment ton crayon évolura</p>
+
+<select name="mois" id="SelectMois">
+    <option value="">-- Choisis un mois --</option>
+    <option value="septembre">Septembre</option>
+    <option value="octobre">Octobre</option>
+    <option value="novembre">Novembre</option>
+    <option value="decembre">Décembre</option>
+    <option value="janvier">Janvier</option>
+    <option value="fevrier">Février</option>
+    <option value="mars">Mars</option>
+    <option value="avril">Avril</option>
+    <option value="mai">Mai</option>
+    <option value="juin">Juin</option>
+</select>
+
+<div id="dessineLeCrayon">
+    
+</div>
 
 </body>
 </html>
